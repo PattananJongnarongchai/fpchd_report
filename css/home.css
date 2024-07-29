@@ -1,0 +1,81 @@
+* {
+  font-family: "Sarabun", sans-serif;
+  font-size: 16px;
+}
+
+.card-header header {
+  background-color: #257060;
+}
+.card-header {
+  padding: 0;
+}
+.card-body {
+  border: 0;
+   
+}
+
+.wrapper {
+  flex: 1;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* สีเปลี่ยนสีพื้นหลังเมื่อถูกเลือก */
+.option-highlight {
+  background-color: yellow;
+  /* สีที่คุณต้องการ */
+}
+
+.card .card-body {
+  padding: auto;
+  margin: 0;
+}
+
+/* ใช้ media query เพื่อปรับขนาดตามหน้าจอ */
+@media only screen and (max-width: 600px) {
+  /* เซ็ตสไตล์เมื่อหน้าจอมีความกว้างไม่เกิน 600px */
+  body {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* เซ็ตสไตล์เมื่อหน้าจอมีความกว้างระหว่าง 601px ถึง 1024px */
+  body {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  /* เซ็ตสไตล์เมื่อหน้าจอมีความกว้างมากกว่า 1024px */
+  body {
+    font-size: 18px;
+  }
+}
+.status-badge {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.bg-warning.text-dark {
+    background-color: yellow;
+    color: dark;
+}
+
+.bg-success {
+    background-color: green;
+    color: white;
+}
+
+.bg-danger {
+    background-color: red;
+    color: white;
+}
+
+i .bi .bi-eye-fill  {
+    color: white;
+}

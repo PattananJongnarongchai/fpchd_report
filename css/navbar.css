@@ -1,0 +1,19 @@
+nav {
+    background-color: #257060;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+     & .menu_center {
+        display: flex;
+        
+        & p
+        {
+            font-size: 50px;
+        }  
+     }
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* เพิ่มเงาด้านล่าง */
+
+}

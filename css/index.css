@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Sarabun", sans-serif;
+  font-size: 16px;
+  
+}
+.card .card-header {
+  justify-content: center;
+  text-align: center;
+}
+.body {
+  background-color: #257060;
+}
+.card-body .btn {
+  box-shadow: 20px;
+}
+footer {
+  color: white;
+}
